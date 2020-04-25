@@ -1,5 +1,11 @@
+import os
+
 import discord
 from discord.ext import commands
+from dotenv import load_dotenv
+
+load_dotenv()
+TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = commands.Bot(command_prefix='-')
 
@@ -343,4 +349,4 @@ async def funeral(ctx):
         await play(ctx, '../sounds/african_funeral.mp3')
 
 
-bot.run('NzAzMzU4MDUwMzE2MDU4NjMx.XqObhQ.I1hUPK70Nsf_5fDitoRqu32uVDA')
+bot.run(TOKEN)
