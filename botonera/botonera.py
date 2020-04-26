@@ -349,4 +349,25 @@ async def funeral(ctx):
         await play(ctx, '../sounds/african_funeral.mp3')
 
 
+@bot.command()
+async def deadman(ctx):
+    """deadman"""
+    if is_user_connected(ctx):
+        await play(ctx, '../sounds/deadman.mp3')
+
+
+@bot.command()
+async def tuturu(ctx):
+    """tuturu"""
+    if is_user_connected(ctx):
+        await play(ctx, '../sounds/tuturu.mp3')
+
+
+@bot.command()
+async def karol(ctx):
+    """Hola hablas con karol"""
+    if is_user_connected(ctx):
+        await play(ctx, '../sounds/karol1.mp3')
+
+
 bot.run(TOKEN)
