@@ -1,13 +1,15 @@
 import os
 
 import discord
+import logging
 from discord.ext import commands
 from dotenv import load_dotenv
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-
+ID = os.getenv('DISCORD_ID')
 bot = commands.Bot(command_prefix='-')
+logging.basicConfig(level=logging.INFO)
 
 
 async def play(ctx, sound_path):
@@ -15,10 +17,18 @@ async def play(ctx, sound_path):
     if ctx.voice_client is None:
         voice_channel = await vc.connect()
     else:
-        await ctx.voice_client.move_to(vc)
+        if not bot_in_channel(vc):
+            await ctx.voice_client.move_to(vc)
         voice_channel = ctx.voice_client
     if not voice_channel.is_playing():
         voice_channel.play(discord.FFmpegPCMAudio(sound_path))
+
+
+def bot_in_channel(channel):
+    for member in channel.members:
+        if member.id == ID:
+            return True
+    return False
 
 
 def is_user_connected(ctx):
