@@ -36,7 +36,6 @@ def is_user_connected(ctx):
         return False
     return True
 
-
 @bot.command()
 async def pisco(ctx):
     """"Vómito pisco a lo macho"""
@@ -361,7 +360,7 @@ async def poetboy2(ctx):
 
 @bot.command()
 async def funeral(ctx):
-    """Negros funeral"""
+    """Negros funeral (Duración extendida)"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/african_funeral.mp3')
 
