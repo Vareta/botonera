@@ -223,7 +223,7 @@ async def cap1(ctx):
 async def cap2(ctx):
     """W3 Capitán: Tenía que haberle hecho caso a mi padre y haberme metido a granjero"""
     if is_user_connected(ctx):
-        await play(ctx, './botonera/sounds/cap1.wav')
+        await play(ctx, './botonera/sounds/cap2.wav')
 
 
 @bot.command()
@@ -378,6 +378,314 @@ async def karol(ctx):
     """Hola hablas con karol"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/karol1.mp3')
+
+
+@bot.command()
+async def aco(ctx):
+    """W3 Acolyte: death"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/aco1.wav')
+
+
+@bot.command()
+async def aco2(ctx):
+    """W3 Acolyte: Esta es la hora del azote"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/aco2.wav')
+
+
+@bot.command()
+async def aco3(ctx):
+    """W3 Acolyte: La muerte limpiará el mundo"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/aco3.wav')
+
+
+@bot.command()
+async def aco4(ctx):
+    """W3 Acolyte: Los condenados estan listos"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/aco4.wav')
+
+
+@bot.command()
+async def aco5(ctx):
+    """W3 Acolyte: Mi vida por ner'zhul"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/aco5.wav')
+
+
+@bot.command()
+async def aco6(ctx):
+    """W3 Acolyte: Si señor"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/aco6.wav')
+
+
+@bot.command()
+async def aco7(ctx):
+    """W3 Acolyte: Donde se derramará mi sangre"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/aco7.wav')
+
+
+@bot.command()
+async def aco8(ctx):
+    """W3 Acolyte: Mi destino esta sellado"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/aco8.wav')
+
+
+@bot.command()
+async def antabaka(ctx):
+    """anta baka"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/anta_baka.mp3')
+
+
+@bot.command()
+async def eggking(ctx):
+    """Huevito rey: tu conoces el sexo, tu no conoces el sexo"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/eggking.mp3')
+
+
+@bot.command()
+async def keanu(ctx):
+    """breathtaking"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/breathtaking.mp3')
+
+
+@bot.command()
+async def cairne(ctx):
+    """W3 Cairne: mm se acerca una tormenta"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/cairne.wav')
+
+
+@bot.command()
+async def thicc(ctx):
+    """Damn boy"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/thicc.mp3')
+
+
+@bot.command()
+async def malcom(ctx):
+    """El futuro es hoy, oiste viejo"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/el_futuro_es_hoy.mp3')
+
+
+@bot.command()
+async def enfermedad(ctx):
+    """Eres la enfermedad y yo la cura"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/eres_la_enfermedad.mp3')
+
+
+@bot.command()
+async def earthas(ctx):
+    """W3 Arthas: Fuí un estupido confiando en la luz"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/earthas.wav')
+
+
+@bot.command()
+async def earthas2(ctx):
+    """W3 Arthas: Gloria al azote"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/earthas2.wav')
+
+
+@bot.command()
+async def earthas3(ctx):
+    """W3 Arthas: Habla estúpido"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/earthas3.wav')
+
+
+@bot.command()
+async def earthas4(ctx):
+    """W3 Arthas: A mi no me mongonea nadie"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/earthas4.wav')
+
+
+@bot.command()
+async def earthas5(ctx):
+    """W3 Arthas: Frostmourne esta hambrienta"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/earthas5.wav')
+
+
+@bot.command()
+async def earthas5(ctx):
+    """W3 Arthas: Por fin!"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/earthas6.wav')
+
+
+@bot.command()
+async def simpsons(ctx):
+    """Simpsons: hablen del dinero"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/simpsons.mp3')
+
+
+@bot.command()
+async def simpsons2(ctx):
+    """Simpsons Homero: me aburren"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/simpsons2.mp3')
+
+
+@bot.command()
+async def grunt(ctx):
+    """W3 Grunt: death"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/grunt.wav')
+
+
+@bot.command()
+async def grunt2(ctx):
+    """W3 Grunt: Uh, eso ha sido bonito"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/grunt2.wav')
+
+
+@bot.command()
+async def joselito(ctx):
+    """Adios viejo"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/joselito.mp3')
+
+
+@bot.command()
+async def onichan(ctx):
+    """Onichan"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/onichan.mp3')
+
+
+@bot.command()
+async def onichan2(ctx):
+    """Onichan I have a dick"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/onichan2.mp3')
+
+
+@bot.command()
+async def pervertido(ctx):
+    """W3 pervertido"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/pervertido.wav')
+
+
+@bot.command()
+async def peon(ctx):
+    """W3 Peón: trabajo trabajo"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/peon.wav')
+
+
+@bot.command()
+async def burns(ctx):
+    """Simpsons Sr Burns: Realmente eres el rey de reyes"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/burns.mp3')
+
+
+@bot.command()
+async def burns2(ctx):
+    """Simpsons Sr Burns: Realmente eres el rey de reyes. Excelente"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/burns2.mp3')
+
+
+@bot.command()
+async def burns3(ctx):
+    """Simpsons Sr Burns: Risa"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/burns3.mp3')
+
+
+@bot.command()
+async def smithers(ctx):
+    """Simpsons Sr Smithers: Em, volvamos a intentarlo mañana"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/smithers.mp3')
+
+
+@bot.command()
+async def smithers2(ctx):
+    """Simpsons Sr Smithers: Damas y caballeros, contemplen a su nuevo dios"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/smithers2.mp3')
+
+
+@bot.command()
+async def flute(ctx):
+    """Titanic flauta"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/flute.mp3')
+
+
+@bot.command()
+async def creer(ctx):
+    """Uy, no lo puedo creer"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/no_lo_puedo_creer.mp3')
+
+
+@bot.command()
+async def back(ctx):
+    """Música de ya volvemos"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/back.mp3')
+
+
+@bot.command()
+async def back2(ctx):
+    """Música de ya volvemos"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/back2.mp3')
+
+
+@bot.command()
+async def wololo(ctx):
+    """AoE2 Monje: Wololo"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/wololo.mp3')
+
+
+@bot.command()
+async def nyes(ctx):
+    """Filthy Frank: nyees"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/nyeeeeeeeees.mp3')
+
+
+@bot.command()
+async def franku(ctx):
+    """Filthy Frank: is time to stop"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/time_to_stop.mp3')
+
+
+@bot.command()
+async def franku2(ctx):
+    """Filthy Frank: nobody gives a shit"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/nobody_gives_a_shit.mp3')
+
+
+@bot.command()
+async def franku3(ctx):
+    """Filthy Frank: moshi moshi motherfucker"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/moshi_moshi_motherfucker.mp3')
 
 
 bot.run(TOKEN)
