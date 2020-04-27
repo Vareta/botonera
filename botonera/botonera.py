@@ -563,7 +563,7 @@ async def grunt2(ctx):
 
 
 @bot.command()
-async def joselito(ctx):
+async def oldman(ctx):
     """Adios viejo"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/joselito.mp3')
@@ -717,14 +717,14 @@ async def kekw(ctx):
 
 
 @bot.command()
-async def camiroaga(ctx):
+async def felipito(ctx):
     """Angel para un final inicio"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/angel_para_un_final_ini.mp3')
 
 
 @bot.command()
-async def camiroaga2(ctx):
+async def felipito2(ctx):
     """Angel para un final fin"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/angel_para_un_final_fin.mp3')
