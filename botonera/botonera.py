@@ -521,7 +521,7 @@ async def earthas5(ctx):
 
 
 @bot.command()
-async def earthas5(ctx):
+async def earthas6(ctx):
     """W3 Arthas: Por fin!"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/earthas6.wav')
