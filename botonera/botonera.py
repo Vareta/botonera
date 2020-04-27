@@ -311,6 +311,20 @@ async def sad(ctx):
 
 
 @bot.command()
+async def sad2(ctx):
+    """Sad violin"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/sad_violin.mp3')
+
+
+@bot.command()
+async def sad3(ctx):
+    """Sad naruto"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/sad_naruto.mp3')
+
+
+@bot.command()
 async def grillos(ctx):
     """Crickets"""
     if is_user_connected(ctx):
@@ -329,13 +343,6 @@ async def spanishflea(ctx):
     """Spanish flea"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/spanish_flea.mp3')
-
-
-@bot.command()
-async def sad2(ctx):
-    """Sad violin"""
-    if is_user_connected(ctx):
-        await play(ctx, './botonera/sounds/sad_violin.mp3')
 
 
 @bot.command()
@@ -690,9 +697,44 @@ async def franku3(ctx):
 
 @bot.command()
 async def massu(ctx):
-    """Filthy Frank: moshi moshi motherfucker"""
+    """Massu Nada es imposible, niuna wea"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/nada_es_imposible.mp3')
+
+
+@bot.command()
+async def cardib(ctx):
+    """Cardi b Coronavairus"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/cardib.mp3')
+
+
+@bot.command()
+async def kekw(ctx):
+    """kekw"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/kekw.mp3')
+
+
+@bot.command()
+async def camiroaga(ctx):
+    """Angel para un final inicio"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/angel_para_un_final_ini.mp3')
+
+
+@bot.command()
+async def camiroaga2(ctx):
+    """Angel para un final fin"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/angel_para_un_final_fin.mp3')
+
+
+@bot.command()
+async def king(ctx):
+    """King engine"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/king_engine.mp3')
 
 
 bot.run(TOKEN)
