@@ -688,4 +688,11 @@ async def franku3(ctx):
         await play(ctx, './botonera/sounds/moshi_moshi_motherfucker.mp3')
 
 
+@bot.command()
+async def massu(ctx):
+    """Filthy Frank: moshi moshi motherfucker"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/nada_es_imposible.mp3')
+
+
 bot.run(TOKEN)
