@@ -457,6 +457,13 @@ async def eggking(ctx):
 
 
 @bot.command()
+async def eggking2(ctx):
+    """Huevito rey: Corrase la pajita, masturbese, vea porno"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/eggking2.mp3')
+
+
+@bot.command()
 async def keanu(ctx):
     """breathtaking"""
     if is_user_connected(ctx):
