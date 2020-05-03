@@ -759,7 +759,7 @@ async def king(ctx):
 
 
 @bot.command()
-async def king(ctx):
+async def brico(ctx):
     """W3 Gryphon: La hora de bricomania!"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/gryphonRider.wav')
