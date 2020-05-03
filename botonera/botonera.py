@@ -101,7 +101,7 @@ async def malganis(ctx):
 
 
 @bot.command()
-async def malganis(ctx):
+async def malganis2(ctx):
     """W3 Arthas: malganis"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/malganis2.mp3')
