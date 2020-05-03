@@ -36,6 +36,7 @@ def is_user_connected(ctx):
         return False
     return True
 
+
 @bot.command()
 async def pisco(ctx):
     """"Vómito pisco a lo macho"""
@@ -97,6 +98,13 @@ async def malganis(ctx):
     """W3 Arthas maldiciendo a malganis"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/malganis.mp3')
+
+
+@bot.command()
+async def malganis(ctx):
+    """W3 Arthas: malganis"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/malganis2.mp3')
 
 
 @bot.command()
@@ -181,6 +189,13 @@ async def hola(ctx):
     """W3: Hola"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/hola.wav')
+
+
+@bot.command()
+async def hola2(ctx):
+    """W3 Mortero: Hola"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/hola2.wav')
 
 
 @bot.command()
@@ -741,6 +756,20 @@ async def king(ctx):
     """King engine"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/king_engine.mp3')
+
+
+@bot.command()
+async def king(ctx):
+    """W3 Gryphon: La hora de bricomania!"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/gryphonRider.wav')
+
+
+@bot.command()
+async def ussr(ctx):
+    """Glorioso himno de la URSS"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/ussr.mp3')
 
 
 bot.run(TOKEN)
