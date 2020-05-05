@@ -94,6 +94,20 @@ async def death2(ctx):
 
 
 @bot.command()
+async def death3(ctx):
+    """W3 campesino muriendo"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/death3.wav')
+
+
+@bot.command()
+async def camp(ctx):
+    """W3 Campesino: warcry1"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/camp.wav')
+
+
+@bot.command()
 async def malganis(ctx):
     """W3 Arthas maldiciendo a malganis"""
     if is_user_connected(ctx):
@@ -147,6 +161,13 @@ async def s2(ctx):
     """Tengo 4"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/s2.mp3')
+
+
+@bot.command()
+async def s3(ctx):
+    """Locked and loaded"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/s3.mp3')
 
 
 @bot.command()
@@ -770,6 +791,27 @@ async def ussr(ctx):
     """Glorioso himno de la URSS"""
     if is_user_connected(ctx):
         await play(ctx, './botonera/sounds/ussr.mp3')
+
+
+@bot.command()
+async def timmy(ctx):
+    """W3 timmy: pero que les pasará a los que se han llevado"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/timmy.mp3')
+
+
+@bot.command()
+async def mogushan(ctx):
+    """WOW: Pandaria será nuestra"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/mogushan.mp3')
+
+
+@bot.command()
+async def chen(ctx):
+    """W3 Chen: cervecita fresca"""
+    if is_user_connected(ctx):
+        await play(ctx, './botonera/sounds/chen.wav')
 
 
 bot.run(TOKEN)
