@@ -62,7 +62,7 @@ async def moof(ctx):
 async def tension(ctx):
     """Sonido intrigante"""
     if is_user_connected(ctx):
-        await play(ctx, './botonera/sounds/tension.mp3')
+        await play(ctx, './botonera/sounds/tension1.mp3')
 
 
 @bot.command()
