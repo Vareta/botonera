@@ -1,14 +1,13 @@
 import os
-import json
 
 import discord
 import logging
 
 from discord.ext import commands
 from dotenv import load_dotenv
+from sounds import library
 
 load_dotenv()
-LIBRARY_PATH = './botonera/sounds.json'
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 logging.basicConfig(level=logging.INFO)
@@ -75,10 +74,6 @@ class DiscordBot(commands.Bot):
             if voice_client:
                 await voice_client.disconnect()
 
-
-library = {}
-with open(LIBRARY_PATH, 'r') as f:
-    library = json.load(f)['sounds']
 
 bot = DiscordBot(command_prefix='-', library=library)
 bot.run(TOKEN)
