@@ -559,6 +559,34 @@
     "muradin": {
       "desc": "W3 Muradin: Seré el violador, por 500",
       "path": "./botonera/sounds/muradin.wav"
+    },
+    "ciber": {
+      "desc": "Vegeta: Hora de abrir el ciber",
+      "path": "./botonera/sounds/ciber.mp3"
+    },
+    "ciber2": {
+      "desc": "Vegeta: Ya vete del ciber",
+      "path": "./botonera/sounds/ciber2.mp3"
+    },
+    "ciber3": {
+      "desc": "Vegeta: Vayanse del ciber",
+      "path": "./botonera/sounds/ciber3.mp3"
+    },
+    "ciber4": {
+      "desc": "Vegeta: Hora de cerrar el ciber",
+      "path": "./botonera/sounds/ciber4.mp3"
+    },
+    "ciber5": {
+      "desc": "Vegeta: Adiós Bulma, adiós Trunks y también, mis clientes del ciber",
+      "path": "./botonera/sounds/ciber5.mp3"
+    },
+    "ciber6": {
+      "desc": "Vegeta: ya me voy del ciber",
+      "path": "./botonera/sounds/ciber6.mp3"
+    },
+    "tabien": {
+      "desc": "Gokú: ta bien",
+      "path": "./botonera/sounds/tabien.mp3"
     }
   }
 }
