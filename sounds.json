@@ -587,6 +587,42 @@
     "tabien": {
       "desc": "Gokú: ta bien",
       "path": "./botonera/sounds/tabien.mp3"
+    },
+    "com": {
+      "desc": "Commnados: Alto",
+      "path": "./botonera/sounds/comm.wav"
+    },
+    "com2": {
+      "desc": "Commnados: Ein verletzter",
+      "path": "./botonera/sounds/comm2.wav"
+    },
+    "com3": {
+      "desc": "Commnados: Alarm! Alarm!",
+      "path": "./botonera/sounds/comm3.wav"
+    },
+    "com4": {
+      "desc": "Commnados: Si? y que más",
+      "path": "./botonera/sounds/comm4.wav"
+    },
+    "com5": {
+      "desc": "Commnados: Y por que no lo intenta usted jefe",
+      "path": "./botonera/sounds/comm5.wav"
+    },
+    "com6": {
+      "desc": "Commnados: Oki doki",
+      "path": "./botonera/sounds/comm6.wav"
+    },
+    "com7": {
+      "desc": "Commnados: Todo esta hecho jefe",
+      "path": "./botonera/sounds/comm7.wav"
+    },
+    "com8": {
+      "desc": "Commnados: No problemo hecho jefe",
+      "path": "./botonera/sounds/comm8.wav"
+    },
+    "com9": {
+      "desc": "Commnados: Eso es fácil",
+      "path": "./botonera/sounds/comm9.wav"
     }
   }
 }
