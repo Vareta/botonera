@@ -555,6 +555,10 @@
     "hein": {
       "desc": "Yo no soy auto de carreras",
       "path": "./botonera/sounds/hein.mp3"
+    },
+    "muradin": {
+      "desc": "W3 Muradin: Seré el violador, por 500",
+      "path": "./botonera/sounds/muradin.wav"
     }
   }
 }
