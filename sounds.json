@@ -114,11 +114,11 @@
     },
     "arthas6": {
       "desc": "W3 Arthas: Tengo que considerarlo como un acto de traición",
-      "path": "./botonera/sounds/arthas6.wav"
+      "path": "./botonera/sounds/arthas6.mp3"
     },
     "arthas7": {
       "desc": "W3 Arthas: Todavía estas enfadado porque te robé Jaina Kael",
-      "path": "./botonera/sounds/arthas6.wav"
+      "path": "./botonera/sounds/arthas7.mp3"
     },
     "hola": {
       "desc": "W3: Hola",
@@ -602,27 +602,27 @@
     },
     "com4": {
       "desc": "Commnados: Si? y que más",
-      "path": "./botonera/sounds/comm4.wav"
+      "path": "./botonera/sounds/comm4.WAV"
     },
     "com5": {
       "desc": "Commnados: Y por que no lo intenta usted jefe",
-      "path": "./botonera/sounds/comm5.wav"
+      "path": "./botonera/sounds/comm5.WAV"
     },
     "com6": {
       "desc": "Commnados: Oki doki",
-      "path": "./botonera/sounds/comm6.wav"
+      "path": "./botonera/sounds/comm6.WAV"
     },
     "com7": {
       "desc": "Commnados: Todo esta hecho jefe",
-      "path": "./botonera/sounds/comm7.wav"
+      "path": "./botonera/sounds/comm7.WAV"
     },
     "com8": {
       "desc": "Commnados: No problemo hecho jefe",
-      "path": "./botonera/sounds/comm8.wav"
+      "path": "./botonera/sounds/comm8.WAV"
     },
     "com9": {
       "desc": "Commnados: Eso es fácil",
-      "path": "./botonera/sounds/comm9.wav"
+      "path": "./botonera/sounds/comm9.WAV"
     }
   }
 }
