@@ -92,6 +92,14 @@
       "desc": "Ta cagao",
       "path": "./botonera/sounds/s5.mp3"
     },
+    "s6": {
+      "desc": "grito",
+      "path": "./botonera/sounds/s6.mp3"
+    },
+    "s7": {
+      "desc": "sadiplaton",
+      "path": "./botonera/sounds/s7.mp3"
+    },
     "arthas1": {
       "desc": "W3 Arthas: No es necesario hacer una reverencia",
       "path": "./botonera/sounds/arthas1.wav"
@@ -556,6 +564,10 @@
       "desc": "Yo no soy auto de carreras",
       "path": "./botonera/sounds/hein.mp3"
     },
+    "hein2": {
+      "desc": "Hein: ah ya yai",
+      "path": "./botonera/sounds/hein2.mp3"
+    },
     "muradin": {
       "desc": "W3 Muradin: Seré el violador, por 500",
       "path": "./botonera/sounds/muradin.wav"
@@ -623,6 +635,26 @@
     "com9": {
       "desc": "Commnados: Eso es fácil",
       "path": "./botonera/sounds/comm9.WAV"
+    },
+    "brigido": {
+      "desc": "Leo Rey: Brigido!",
+      "path": "./botonera/sounds/brigido.mp3"
+    },
+    "g1": {
+      "desc": "Galen: claro",
+      "path": "./botonera/sounds/g1.mp3"
+    },
+    "r1": {
+      "desc": "Ralzagar: galentemos cagao de frío",
+      "path": "./botonera/sounds/r1.mp3"
+    },
+    "r2": {
+      "desc": "Ralzagar: el risas",
+      "path": "./botonera/sounds/r1.mp3"
+    },
+    "sa1": {
+      "desc": "Sería todo",
+      "path": "./botonera/sounds/sa1.mp3"
     }
   }
 }
