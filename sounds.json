@@ -655,6 +655,26 @@
     "sa1": {
       "desc": "Sería todo",
       "path": "./botonera/sounds/sa1.mp3"
+    },
+    "hello": {
+      "desc": "Buenos Días kill me baby",
+      "path": "./botonera/sounds/hello.mp3"
+    },
+    "jueves": {
+      "desc": "Feliz Jueves",
+      "path": "./botonera/sounds/jueves.mp3"
+    },
+    "hisoka": {
+      "desc": "No puedo detenegme",
+      "path": "./botonera/sounds/hisoka.mp3"
+    },
+    "kkkast": {
+      "desc": "Me pillaron",
+      "path": "./botonera/sounds/kkkast.mp3"
+    },
+    "martes": {
+      "desc": "Ya es martes, aaahhhh!!!",
+      "path": "./botonera/sounds/martes.mp3"
     }
   }
 }
