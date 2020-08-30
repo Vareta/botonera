@@ -652,6 +652,14 @@
       "desc": "Ralzagar: el risas",
       "path": "./botonera/sounds/r2.mp3"
     },
+    "r3": {
+      "desc": "Ralzagar: me chupa un coco",
+      "path": "./botonera/sounds/r3.mp3"
+    },
+    "r4": {
+      "desc": "Ralzagar: ah pero weón",
+      "path": "./botonera/sounds/r4.mp3"
+    },
     "sa1": {
       "desc": "Sería todo",
       "path": "./botonera/sounds/sa1.mp3"
@@ -675,6 +683,86 @@
     "martes": {
       "desc": "Ya es martes, aaahhhh!!!",
       "path": "./botonera/sounds/martes.mp3"
+    },
+    "v": {
+      "desc": "Oh, cagué",
+      "path": "./botonera/sounds/v.mp3"
+    },
+    "v2": {
+      "desc": "Oh, que paja",
+      "path": "./botonera/sounds/v2.mp3"
+    },
+    "v3": {
+      "desc": "el risas",
+      "path": "./botonera/sounds/v3.mp3"
+    },
+    "l": {
+      "desc": "Leti: risas",
+      "path": "./botonera/sounds/l.mp3"
+    },
+    "l2": {
+      "desc": "Leti: risas 2",
+      "path": "./botonera/sounds/l2.mp3"
+    },
+    "gta": {
+      "desc": "GTA: misión cumplida",
+      "path": "./botonera/sounds/gta.mp3"
+    },
+    "capital": {
+      "desc": "El pimientas: yo avisé, el que avisa no es traidor",
+      "path": "./botonera/sounds/capital.mp3"
+    },
+    "capital2": {
+      "desc": "El pimientas: Ahorita vas a ver lo que es bueno",
+      "path": "./botonera/sounds/capital2.mp3"
+    },
+    "capital3": {
+      "desc": "El pimientas: Ya no más que chulada papá",
+      "path": "./botonera/sounds/capital3.mp3"
+    },
+    "capital4": {
+      "desc": "El pimientas: que cosa tan bella",
+      "path": "./botonera/sounds/capital4.mp3"
+    },
+    "capital5": {
+      "desc": "El pimientas: La joya",
+      "path": "./botonera/sounds/capital5.mp3"
+    },
+    "capital6": {
+      "desc": "El pimientas: Y se viene lo que te gusta, meterle mano",
+      "path": "./botonera/sounds/capital6.mp3"
+    },
+    "tatita": {
+      "desc": "Pinochet: Así debe ser un militar, mesurado, perfectivo",
+      "path": "./botonera/sounds/tatita.mp3"
+    },
+    "tatita2": {
+      "desc": "Pinochet: Esta nunca ha sido dictadura, señores, es dicta blanda",
+      "path": "./botonera/sounds/tatita2.mp3"
+    },
+    "tatita3": {
+      "desc": "Pinochet: Pero que economía mas grande",
+      "path": "./botonera/sounds/tatita3.mp3"
+    },
+    "tatita4": {
+      "desc": "Pinochet: Esa es otra cosa",
+      "path": "./botonera/sounds/tatita4.mp3"
+    },
+    "tatita5": {
+      "desc": "Pinochet: Nadie se mueve sin que sepa yo",
+      "path": "./botonera/sounds/tatita5.mp3"
+    },
+    "tatita6": {
+      "desc": "Pinochet: Por que me pregunta eso uste a mi",
+      "path": "./botonera/sounds/tatita6.mp3"
+    },
+    "tatita7": {
+      "desc": "Pinochet: A cada persona que se le sorprenda con armas o explosivo",
+      "path": "./botonera/sounds/tatita7.mp3"
+    },
+    "curb": {
+      "desc": "Curb Your Enthusiasms",
+      "path": "./botonera/sounds/curb.mp3"
     }
   }
 }
