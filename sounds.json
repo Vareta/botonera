@@ -760,6 +760,14 @@
       "desc": "Pinochet: A cada persona que se le sorprenda con armas o explosivo",
       "path": "./botonera/sounds/tatita7.mp3"
     },
+    "tatita8": {
+      "desc": "Pinochet: apruebo",
+      "path": "./botonera/sounds/tatita8.mp3"
+    },
+    "tatita9": {
+      "desc": "Pinochet: MC apruebo",
+      "path": "./botonera/sounds/tatita9.mp3"
+    },
     "curb": {
       "desc": "Curb Your Enthusiasms",
       "path": "./botonera/sounds/curb.mp3"
