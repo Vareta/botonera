@@ -771,6 +771,30 @@
     "curb": {
       "desc": "Curb Your Enthusiasms",
       "path": "./botonera/sounds/curb.mp3"
+    },
+    "gaa": {
+      "desc": "Chibolo Meepo: Qué pasa causa?",
+      "path": "./botonera/sounds/gaa.mp3"
+    },
+    "gaa2": {
+      "desc": "Chibolo Meepo: GAAAA",
+      "path": "./botonera/sounds/gaa2.mp3"
+    },
+    "gaa3": {
+      "desc": "Chibolo Meepo: vas a ver chupeting",
+      "path": "./botonera/sounds/gaa3.mp3"
+    },
+    "gaa4": {
+      "desc": "Chibolo Meepo: pero ustedes que van a saber conchatumadre",
+      "path": "./botonera/sounds/gaa4.mp3"
+    },
+    "gaa5": {
+      "desc": "Chibolo Meepo: cuidaito papi",
+      "path": "./botonera/sounds/gaa5.mp3"
+    },
+    "gaa6": {
+      "desc": "Chibolo Meepo: El chibolo meepo papi",
+      "path": "./botonera/sounds/gaa6.mp3"
     }
   }
 }
