@@ -660,6 +660,22 @@
       "desc": "Ralzagar: ah pero weón",
       "path": "./botonera/sounds/r4.mp3"
     },
+    "r5": {
+      "desc": "Ralzagar: otaku",
+      "path": "./botonera/sounds/r5.mp3"
+    },
+    "r6": {
+      "desc": "Ralzagar: bostezo",
+      "path": "./botonera/sounds/r6.mp3"
+    },
+    "r7": {
+      "desc": "Ralzagar: y me voy a comprar todo",
+      "path": "./botonera/sounds/r7.mp3"
+    },
+    "r8": {
+      "desc": "Ralzagar: tryhardear full ctmre",
+      "path": "./botonera/sounds/r8.mp3"
+    },
     "sa1": {
       "desc": "Sería todo",
       "path": "./botonera/sounds/sa1.mp3"
@@ -795,6 +811,18 @@
     "gaa6": {
       "desc": "Chibolo Meepo: El chibolo meepo papi",
       "path": "./botonera/sounds/gaa6.mp3"
+    },
+    "g": {
+      "desc": "Galen: risa",
+      "path": "./botonera/sounds/g.mp3"
+    },
+    "teatro": {
+      "desc": "Teatro en chv: inicio",
+      "path": "./botonera/sounds/teatro.mp3"
+    },
+    "teatro2": {
+      "desc": "Teatro en chv: compacto",
+      "path": "./botonera/sounds/teatro2.mp3"
     }
   }
 }
