@@ -823,6 +823,10 @@
     "teatro2": {
       "desc": "Teatro en chv: compacto",
       "path": "./botonera/sounds/teatro2.mp3"
+    },
+    "ricacola": {
+      "desc": "Peruano: Puta que rico",
+      "path": "./botonera/sounds/puta_que_rico.mp3"
     }
   }
 }
