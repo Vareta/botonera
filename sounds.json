@@ -827,6 +827,18 @@
     "ricacola": {
       "desc": "Peruano: Puta que rico",
       "path": "./botonera/sounds/puta_que_rico.mp3"
+    },
+    "d1": {
+      "desc": "Discord: message",
+      "path": "./botonera/sounds/d1.mp3"
+    },
+    "d2": {
+      "desc": "Discord: join",
+      "path": "./botonera/sounds/d2.mp3"
+    },
+    "d3": {
+      "desc": "Discord: leave",
+      "path": "./botonera/sounds/d3.mp3"
     }
   }
 }
